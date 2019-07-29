@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Nikki McCurdy</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 				integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 						crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+      <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <!--dropdown bar-->
+    <div class="ribbon">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="index.html"><img class="ribbonimg" src="NikkiItems/NicoleHeadshot2019.jpg" height="100" alt="Ribbon Image To Home"></a>
+            </div>
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3">
+                <p class="rightalign">Nikki's Portfolio</p>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"> 
+                Programming Skills
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="programSkills.html">Programming Home</a>
+                    <a class="dropdown-item" href="programSkills.html#SQL">SQL</a>
+                    <a class="dropdown-item" href="programSkills.html#Web">Web Development</a>
+                    <a class="dropdown-item" href= "programSkills.html#Other">Other</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Business Skills </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="businessSkills.html">Business Home</a>
+                    <a class="dropdown-item" href="businessSkills.html#Knacktive">Knacktive</a>
+                    <a class="dropdown-item" href="businessSkills.html#internship">Client Reporting</a>
+                    <a class="dropdown-item" href="businessSkills.html#Other">Other</a>
+                </div>
+            </li> 
+            <li class="nav-item">
+            <a class="nav-link" href="resume.html">Résumé</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Top body content-->
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1 class="NameHeaderHome">Nikki McCurdy</h1>
+            <img src= "NikkiItems/NikkiPic.jpg" height="360" width="360" class="homepic"alt="Nikki's Homepage Headshot">
+        </div>
+    </div>
+    
+    <!--Embedded JS-->
+    <div class="col-lg-12 text-center">
+        <script>
+            var major1 = "Management Information Systems";
+            var major2 = "Business Technology";
+            var emphasis = "Interactive Digital Media";
+          
+          document.write("<p>Majors: " + major1+ " and " + major2 + " <br> Emphasis: " + emphasis + "</p>");
+        </script>
+    </div>
+    
+          <div class="line"></div>
+    <h3>About Me: </h3>
+    <div class="row">
+    <div class="col-sm-5">
+        <img class="centerpic" src="NikkiItems/NicoleHeadshot2019.jpg" height = "300" alt="Nikki's About Me Headshot">
+    </div>
+    <div class="col-sm-6">
+        <p>My name is Nikki McCurdy. I am currently a student at Northwest Missouri State University. I am a double major in Management Information Systems and Business Technology with an emphasis in Interactive Digital Media. My planned graduation date is December of 2019. I am currently working at American Century Investments as a <a class="linkcolor" href="businessSkills.html#internship">Client Reporting intern </a>. My hobbies include jigsaw puzzles, playing golf with my family and listening to music. I played four years of collegiate golf for the Bearcats where I was a team captain for one year. My dream job would use HTML, CSS, and Javascript or SQL. </p>
+    </div>
+    </div>
+    <!--Bottom Buttons-->
+    <div class="homeButtonDiv">
+    <div class="row" id="hidesmall">
+        <div class="col-sm-4 text-center">
+            <button type="button" id="homebutton1" class="btn btn-default"><a class="homebutton"  href="programSkills.html">Programming Skills</a></button>
+        </div>
+        <div class="col-sm-4 text-center">
+            <button type="button" id="homebutton2" class="btn btn-default"><a class="homebutton"  href="businessSkills.html">Business Skills</a></button>
+        </div>
+        <div class="col-sm-4 text-center">
+            <button type="button" id="homebutton3" class="btn btn-default"><a class="homebutton"  href="resume.html">Résumé</a></button>
+        </div>
+            <script type="text/javascript">
+                $("#homebutton1").mouseover(function(){$(this).css("background", "#DCDDD8");})
+                $("#homebutton1").mouseout(function(){$(this).css("background", "#62acb5");});
+                $("#homebutton2").mouseover(function(){$(this).css("background", "#DCDDD8");})
+                $("#homebutton2").mouseout(function(){$(this).css("background", "#62acb5");});
+                $("#homebutton3").mouseover(function(){$(this).css("background", "#DCDDD8");})
+                $("#homebutton3").mouseout(function(){$(this).css("background", "#62acb5");});
+		  </script>
+    </div>
+    </div>
+</body>
+    <!--Footer Nav-->
+<footer>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <p>Nikki's Website</p>
+        </div>
+    </div>
+      <div class="row">
+          <div class="col-sm-12 text-center">
+              <a href="index.html" class="footerlinks">Home</a>
+          </div>
+
+      </div>
+      <div class="row" >
+          <div class="col-sm-6 text-center">
+              <a href="programSkills.html" class="footerlinks">Programming Skills</a>
+          </div>
+          <div class="col-sm-6 text-center">
+              <a href="businessSkills.html" class="footerlinks">Business Skills</a>
+          </div>
+      </div>
+      <div class="row" >
+          <div class="col-sm-6 text-center">
+              <a href="programSkills.html#SQL" class="footerlinks">SQL</a>
+          </div>
+          <div class="col-sm-6 text-center">
+              <a href="businessSkills.html#Knacktive" class="footerlinks">Knacktive</a>
+        </div>
+    </div>
+      <div class="row" >
+          <div class="col-sm-6 text-center">
+              <a href="programSkills.html#Web" class="footerlinks">Web Development</a>
+          </div>
+          <div class="col-sm-6 text-center">
+              <a href="businessSkills.html#internship" class="footerlinks">Client Reporting</a>
+        </div>
+    </div>
+      <div class="row" >
+          <div class="col-sm-12 text-center">
+              <a href="resume.html" class="footerlinks">Résumé</a>
+          </div>
+      </div>
+    <br> <br>
+      <div class="row">
+          <div class="col-sm-12 text-center">
+    <p id="day"> </p>
+    <p id="month"> </p>
+    <p id="date"> </p>
+    <p id="year"> </p>
+    <script src="javascript.js"></script>
+          </div>
+          <br><br>
+      </div>
+</footer>
+</html>
